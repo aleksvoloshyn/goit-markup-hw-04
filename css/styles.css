@@ -101,6 +101,7 @@ p {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
+  /* text-align: center; */
   /* outline: 1px solid firebrick; */
 }
 
@@ -269,19 +270,19 @@ p {
 }
 
 .item-details::before{
-  background-image: url(../images/studio/advantages-antenna.png);
+  background-image: url(../images/studio/advantages-antenna.svg);
 }
 
 .item-punktuality::before {
-  background-image: url(../images/studio/advantages-clock.png);
+  background-image: url(../images/studio/advantages-clock.svg);
 }
 
 .item-planning::before {
-  background-image: url(../images/studio/advantages-diagram.png);
+  background-image: url(../images/studio/advantages-diagram.svg);
 }
 
 .item-moderntech::before {
-  background-image: url(../images/studio/advantages-astronaut.png);
+  background-image: url(../images/studio/advantages-astronaut.svg);
 }
 
 
@@ -328,7 +329,7 @@ p {
   margin-right: 30px;
 }
 
-.our-team-list .title {
+.our-team-list .title{
   font-size: 16px;
   text-transform: unset;
   margin-bottom: 10px;
@@ -340,6 +341,9 @@ p {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
+
+/* clients */
+
 
 /* footer */
 .footer {
