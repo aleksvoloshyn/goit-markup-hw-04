@@ -32,7 +32,7 @@ a {
   color: var(--primary-text-color);
 }
 
-img{
+img {
   display: block;
   max-width: 100%;
   height: auto;
@@ -103,6 +103,7 @@ p {
   padding-right: 15px;
   /* outline: 1px solid firebrick; */
 }
+
 .section {
   padding-bottom: 94px;
   padding-top: 94px;
@@ -142,7 +143,7 @@ p {
 }
 
 /* site logo */
- .site-nav-logo {
+.site-nav-logo {
   display: block;
   margin-right: 91px;
 
@@ -160,6 +161,7 @@ p {
 .contacts .item+.item {
   margin-left: 50px;
 }
+
 /* всем у кого сверху по-соседству класс item */
 
 /* site navigation */
@@ -172,9 +174,21 @@ p {
 
 /* hero */
 .hero {
-  background-color: var(--second-bg-color);
+  height: 600px;
+  max-width: 1600px;
   padding-top: 200px;
   padding-bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: var(--second-bg-color);
+  background-image: linear-gradient(to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)),
+    url(../images/studio/ourteam.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 .hero-content {
@@ -206,7 +220,7 @@ p {
   padding-bottom: 10px;
   padding-left: 32px;
   padding-right: 32px;
-  
+
   color: var(--whitecolor);
   background-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -223,6 +237,7 @@ p {
 .advantages .title {
   display: none;
 }
+
 .advantages-list {
   display: flex;
 }
@@ -273,7 +288,7 @@ p {
   border-radius: 0px 0px 4px 4px;
 }
 
-.ourteam-text-block{
+.ourteam-text-block {
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -311,13 +326,13 @@ p {
   color: var(--address-color)
 }
 
-.footer .site-nav-logo{
+.footer .site-nav-logo {
   margin-right: 0;
   margin-bottom: 20px;
 }
 
 .footer-mainaddress,
-.footer-address-list li:first-child{
+.footer-address-list li:first-child {
   margin-bottom: 9px;
 }
 
@@ -337,7 +352,7 @@ p {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
-  
+
 }
 
 .filter-list .item:not(:last-child) {
@@ -346,7 +361,7 @@ p {
 
 .filter-list button {
   color: var(--primary-text-color);
-  background-color:var(--filter-btn-bg-color);
+  background-color: var(--filter-btn-bg-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
@@ -361,7 +376,7 @@ p {
   padding-bottom: 6px;
 }
 
-.filter-list li:first-child button{
+.filter-list li:first-child button {
   background-color: var(--accent-color);
   color: var(--whitecolor);
 }
@@ -403,14 +418,14 @@ p {
   margin-bottom: 0;
 }
 
-.portfolio-text-block{
+.portfolio-text-block {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 24px;
   padding-right: 24px;
 }
 
-.portfolio-description{
+.portfolio-description {
   margin-top: 4px;
 
   color: var(--text-color);
