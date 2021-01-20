@@ -10,7 +10,7 @@
   --primary-bg-color: #ffffff;
   --second-bg-color: #2f303a;
   --third-bg-color: #F5F4FA;
-
+  --hero-gredient: rgba(47, 48, 58, 0.4);
   --filter-btn-bg-color: #F5F4FA;
 
   --border-color-portfolio: #EEEEEE;
@@ -183,8 +183,8 @@ p {
 
   background-color: var(--second-bg-color);
   background-image: linear-gradient(to right,
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)),
+      var(--hero-gredient),
+      var(--hero-gredient)),
     url(../images/studio/ourteam.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -253,6 +253,37 @@ p {
 .advantages .item+.item {
   margin-left: 30px;
 }
+
+.advantages-list .item::before {
+  display: block;
+  content: "";
+  height: 120px;
+  width: 270px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+
+  background-color: var(--filter-btn-bg-color);
+  /* background-size: contain; */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.item-details::before{
+  background-image: url(../images/studio/advantages-antenna.png);
+}
+
+.item-punktuality::before {
+  background-image: url(../images/studio/advantages-clock.png);
+}
+
+.item-planning::before {
+  background-image: url(../images/studio/advantages-diagram.png);
+}
+
+.item-moderntech::before {
+  background-image: url(../images/studio/advantages-astronaut.png);
+}
+
 
 /* what we do section*/
 .what-we-do .list {
