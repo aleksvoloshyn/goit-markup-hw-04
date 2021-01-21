@@ -159,28 +159,10 @@ p {
   margin-left: auto;
 }
 
-.contacts .mail, .contacts .phone{
+/* .contacts .mail, .contacts .phone{
   display: flex;
   align-items: center;
-}
-.mail::before {
-  content: "";
-  
-  width: 16px;
-  height: 12px;
-  background-image: url("../images/studio/envelope.svg");
-  margin-right: 10px; 
-}
-
-.phone::before {
-  content: "";
-  
-  width: 10px;
-  height: 16px;
-  background-image: url("../images/studio/smartphone.svg");
-  margin-right: 10px;
-}
-
+} */
 
 .contacts .item+.item {
   margin-left: 50px;
@@ -277,37 +259,6 @@ p {
 .advantages .item+.item {
   margin-left: 30px;
 }
-
-.advantages-list .item::before {
-  display: block;
-  content: "";
-  height: 120px;
-  width: 270px;
-  margin-bottom: 30px;
-  border-radius: 4px;
-
-  background-color: var(--filter-btn-bg-color);
-  /* background-size: contain; */
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.item-details::before {
-  background-image: url(../images/studio/advantages-antenna.svg);
-}
-
-.item-punktuality::before {
-  background-image: url(../images/studio/advantages-clock.svg);
-}
-
-.item-planning::before {
-  background-image: url(../images/studio/advantages-diagram.svg);
-}
-
-.item-moderntech::before {
-  background-image: url(../images/studio/advantages-astronaut.svg);
-}
-
 
 /* what we do section*/
 .what-we-do .list {
