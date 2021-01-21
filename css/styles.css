@@ -159,6 +159,29 @@ p {
   margin-left: auto;
 }
 
+.contacts .mail, .contacts .phone{
+  display: flex;
+  align-items: center;
+}
+.mail::before {
+  content: "";
+  
+  width: 16px;
+  height: 12px;
+  background-image: url("../images/studio/envelope.svg");
+  margin-right: 10px; 
+}
+
+.phone::before {
+  content: "";
+  
+  width: 10px;
+  height: 16px;
+  background-image: url("../images/studio/smartphone.svg");
+  margin-right: 10px;
+}
+
+
 .contacts .item+.item {
   margin-left: 50px;
 }
@@ -269,7 +292,7 @@ p {
   background-position: center;
 }
 
-.item-details::before{
+.item-details::before {
   background-image: url(../images/studio/advantages-antenna.svg);
 }
 
@@ -329,7 +352,7 @@ p {
   margin-right: 30px;
 }
 
-.our-team-list .title{
+.our-team-list .title {
   font-size: 16px;
   text-transform: unset;
   margin-bottom: 10px;
