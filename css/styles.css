@@ -16,6 +16,9 @@
   --border-color-portfolio: #EEEEEE;
 
   --normal-font-size: 14px;
+
+  --logo-color: #AFB1B8;
+
 }
 
 /* сброс маркеров списка */
@@ -271,7 +274,8 @@ p {
 }
 
 .what-we-do-title,
-.our-team-title {
+.our-team-title,
+.clients-title {
   margin-bottom: 50px;
 }
 
@@ -318,6 +322,45 @@ p {
 
 /* clients */
 
+
+
+ul.client-list {
+  display: flex;
+}
+
+li.client-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 170px;
+  height: 90px;
+  border: 1px solid var(--logo-color);
+  border-radius: 4px;
+}
+
+li.client-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+a.client-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  color: var(--logo-color);
+}
+
+.clients-icon {
+  fill: currentColor;
+}
+
+.client-list-item:hover,
+.client-list-item:focus{
+  color: var(--accent-color);
+  border-color: var(--accent-color)
+}
 
 /* footer */
 .footer {
