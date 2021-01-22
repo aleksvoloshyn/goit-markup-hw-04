@@ -19,6 +19,8 @@
   --normal-font-size: 14px;
 
   --logo-color: #AFB1B8;
+  
+  --header-border-color: #ECECEC;
 
 }
 
@@ -116,6 +118,10 @@ p {
 }
 
 /* header */
+.page-header{
+  border-bottom: 1px solid var(--header-border-color) ;
+}
+
 .page-header .list a:hover,
 .page-header .list a:focus,
 .footer address a:hover,
