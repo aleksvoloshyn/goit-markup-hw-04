@@ -142,7 +142,8 @@ p {
 } */
 
 .site-nav .link {
-  display: block;
+  display: flex;
+  align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -180,6 +181,11 @@ p {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+
+.contacts-logo{
+  margin-right: 10px;
+  fill: currentColor;
 }
 
 /* hero */
