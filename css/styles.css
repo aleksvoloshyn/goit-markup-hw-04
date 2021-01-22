@@ -335,8 +335,7 @@ li.client-list-item {
 
   width: 170px;
   height: 90px;
-  border: 1px solid var(--logo-color);
-  border-radius: 4px;
+  
 }
 
 li.client-list-item:not(:last-child) {
@@ -350,14 +349,16 @@ a.client-link {
   width: 100%;
   height: 100%;
   color: var(--logo-color);
-}
 
-.clients-icon {
+  border: 1px solid var(--logo-color);
+  border-radius: 4px;
+}
+svg.clients-icon {
   fill: currentColor;
 }
 
-.client-list-item:hover,
-.client-list-item:focus{
+a.client-link:hover,
+a.client-link:focus{
   color: var(--accent-color);
   border-color: var(--accent-color)
 }
