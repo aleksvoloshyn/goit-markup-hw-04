@@ -191,6 +191,10 @@ p {
 
 .contacts-logo{
   margin-right: 10px;
+}
+
+.mail,
+.phone{
   fill: currentColor;
 }
 
