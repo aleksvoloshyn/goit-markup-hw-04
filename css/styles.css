@@ -461,6 +461,7 @@ a.social-link {
   width: 100%;
   height: 100%;
   background-color: var(--icons-bg);
+  fill: currentColor;
 }
 
 a.social-link:hover,
@@ -475,12 +476,6 @@ a.social-link:focus {
 .our-team a.social-link:hover,
 .our-team a.social-link:focus {
   color: var(--whitecolor);
-}
-
-
-
-svg.social-icon {
-  fill: currentColor;
 }
 
 /* portfolio styles */
