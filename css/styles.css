@@ -222,7 +222,7 @@ p {
     url(../images/studio/ourteam.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  
 }
 
 .hero-content {
@@ -561,7 +561,7 @@ a.social-link:focus {
 }
 
 .portfolio-items a:hover, 
-.portfolio-items a:hover:focus{
+.portfolio-items a:focus{
   box-shadow: var(--portfolio-card-shadow);
 }
 
